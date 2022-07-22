@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:text="Becoming Dev"
         android:textStyle="bold"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="@color/black"/>
 
     <androidx.recyclerview.widget.RecyclerView

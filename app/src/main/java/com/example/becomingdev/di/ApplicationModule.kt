@@ -44,7 +44,7 @@ class ApplicationModule {
 
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create(Gson()))
-            .baseUrl("")
+            .baseUrl("https://becomingdevapi.victorhqdev.ninja/")
             .client(okHttpClient)
             .build()
     }
